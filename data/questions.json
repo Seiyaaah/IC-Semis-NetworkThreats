@@ -1,420 +1,280 @@
 [
   {
-    "id": "hci_evaluation_methods",
-    "subjectId": "hci_evaluation_methods",
-    "questionType": "Identification, Enumeration",
+    "id": "network_threats",
+    "subjectId": "network_threats",
+    "questionType": "identification",
     "questions": [
       {
         "type": "identification",
-        "question": "What concept refers to how easy, efficient, and effective a system is to use?",
-        "answer": "Usability"
+        "question": "What term refers to any malicious attempt to compromise, disrupt, or gain unauthorized access to network infrastructure, transmitted data, or connected devices?",
+        "answer": "Network Threat"
       },
       {
         "type": "identification",
-        "question": "What type of usability measurement is determined through performance tasks such as counting clicks or timing an action?",
-        "answer": "Quantitative"
+        "question": "Which type of malware encrypts network shares and critical files while demanding extortion payments for decryption keys?",
+        "answer": "Ransomware"
       },
       {
         "type": "identification",
-        "question": "What type of usability measurement is based on user opinions, feedback, and surveys regarding how simple or tiring a system feels?",
-        "answer": "Qualitative"
+        "question": "What is the security architectural principle centered on the core concept of 'Never trust, always verify'?",
+        "answer": "Zero Trust Architecture"
       },
       {
         "type": "identification",
-        "question": "What evaluation tool often includes questions involving ease of use, ease of learning, fatigue, and simple preference?",
-        "answer": "Usability Survey"
+        "question": "Which network traffic attack floods network bandwidth or server sockets with botnet traffic to cause severe outages?",
+        "answer": "DDoS Attacks"
       },
       {
         "type": "identification",
-        "question": "What concept refers to the overall feeling, satisfaction, and emotional connection users have while interacting with a system?",
-        "answer": "User Experience (UX)"
+        "question": "What category of malware consists of disguised software that secretly logs keypresses and harvests credentials?",
+        "answer": "Spyware & Trojans"
       },
       {
         "type": "identification",
-        "question": "What is the simplest evaluation method that involves talking to users or watching them use the system?",
-        "answer": "Interview / Observation"
+        "question": "Which self-replicating malware spreads laterally across connected nodes without requiring any user action?",
+        "answer": "Network Worms"
       },
       {
         "type": "identification",
-        "question": "What evaluation method involves users thinking aloud while using the system to describe what they are doing and why?",
-        "answer": "Cognitive Walkthrough"
+        "question": "Which attack intercepts and alters active session packets over unencrypted or rogue networks?",
+        "answer": "Man-in-the-Middle (MitM)"
       },
       {
         "type": "identification",
-        "question": "What evaluation method involves usability experts reviewing a system using established principles?",
-        "answer": "Expert Heuristic Evaluation"
+        "question": "Which attack corrupts domain resolution caches to silently redirect traffic to malicious sites?",
+        "answer": "DNS Spoofing"
       },
       {
         "type": "identification",
-        "question": "What term is used for the established principles used by usability experts during an evaluation?",
-        "answer": "Heuristics"
+        "question": "What social engineering threat uses deceptive emails designed to trick users into revealing access secrets?",
+        "answer": "Phishing"
       },
       {
         "type": "identification",
-        "question": "Whose ten General UI heuristics are highlighted as standard principles for expert heuristic evaluation?",
-        "answer": "Nielsen"
+        "question": "What attack method uses automated injection of leaked credentials across corporate login portals?",
+        "answer": "Credential Stuffing"
       },
       {
         "type": "identification",
-        "question": "Which UI heuristic states that the system should keep users informed about what is going on through appropriate feedback?",
-        "answer": "Visibility of system status"
+        "question": "Which threat category includes malicious or careless actions by internal staff holding valid system permissions?",
+        "answer": "Insider Threats"
       },
       {
         "type": "identification",
-        "question": "Which UI heuristic emphasizes speaking the users' language with words, phrases, and concepts familiar to the user rather than system-oriented terms?",
-        "answer": "Match between system and the real world"
+        "question": "Which security countermeasure requires multiple verification factors across endpoints and access portals to neutralize stolen credentials?",
+        "answer": "Multi-Factor Authentication (MFA)"
       },
       {
         "type": "identification",
-        "question": "Which UI heuristic provides users with freedom and an easy way to exit unwanted system states?",
-        "answer": "User control and freedom"
+        "question": "Which defensive strategy divides networks into isolated sub-zones to contain breaches and prevent lateral movement?",
+        "answer": "Network Segmentation"
       },
       {
         "type": "identification",
-        "question": "Which UI heuristic states that users should not have to wonder whether different words, situations, or actions mean the same thing?",
-        "answer": "Consistency and standards"
+        "question": "Which main attack pillar focuses on exploiting system software, OS flaws, and unpatched applications?",
+        "answer": "Software & Code (Malware)"
       },
       {
         "type": "identification",
-        "question": "Which UI heuristic focuses on eliminating error-prone conditions or warning users before they commit to an action?",
-        "answer": "Error prevention"
+        "question": "Which main attack pillar involves intercepting network packets, flooding bandwidth, or hijacking DNS?",
+        "answer": "Network & Traffic Infrastructure"
       },
       {
         "type": "identification",
-        "question": "Which UI heuristic minimizes the user's memory load by making objects, actions, and options visible rather than forcing memory retrieval?",
-        "answer": "Recognition rather than recall"
+        "question": "Which main attack pillar focuses on manipulating human behavior and stealing credentials to bypass perimeter defenses?",
+        "answer": "Human & Identity Factors"
       },
       {
         "type": "identification",
-        "question": "Which UI heuristic allows shortcuts for expert users to speed up interactions while still accommodating inexperienced users?",
-        "answer": "Flexibility and efficiency of use"
+        "question": "Which countermeasure deploys IDS/IPS, SIEM monitoring, and automated patch management to rapidly resolve vulnerabilities?",
+        "answer": "Continuous Monitoring & Patching"
       },
       {
         "type": "identification",
-        "question": "Which UI heuristic specifies that dialogues should not contain information that is irrelevant or rarely needed?",
-        "answer": "Aesthetic and minimalist design"
+        "question": "Which primary objective of network threats involves compelling financial ransom or inflicting reputational damage on an organization?",
+        "answer": "Financial Extortion & Reputation Damage"
       },
       {
         "type": "identification",
-        "question": "Which UI heuristic ensures error messages are expressed in plain language, indicate the problem, and suggest a constructive solution?",
-        "answer": "Help users recognize, diagnose, and recover from errors"
+        "question": "Which primary objective of network threats leads to system downtime and interruptions in operations?",
+        "answer": "Operational Disruption & Downtime"
       },
       {
         "type": "identification",
-        "question": "Which UI heuristic provides information and documentation to help users complete their tasks when needed?",
-        "answer": "Help and documentation"
-      },
-      {
-        "type": "identification",
-        "question": "What evaluation step involves collecting numerical or survey-based data to measure interface effectiveness?",
-        "answer": "Measurement"
-      },
-      {
-        "type": "identification",
-        "question": "What authorization must participants give before participating in a user interface evaluation?",
-        "answer": "Informed consent"
-      },
-      {
-        "type": "identification",
-        "question": "What fundamental right must participants always retain whenever they feel uncomfortable during an evaluation?",
-        "answer": "Right to stop"
-      },
-      {
-        "type": "identification",
-        "question": "In quantitative usability, what metric measures the duration required to complete an action?",
-        "answer": "Time"
-      },
-      {
-        "type": "identification",
-        "question": "In quantitative usability, what metric measures the number of user inputs required to complete an action?",
-        "answer": "Number of clicks"
-      },
-      {
-        "type": "identification",
-        "question": "What specific user insights are revealed by a cognitive walkthrough during task performance?",
-        "answer": "Thought process and points of confusion"
-      },
-      {
-        "type": "identification",
-        "question": "What primary benefit does interview/observation offer that designers might otherwise experience?",
-        "answer": "Helps identify problems that designers might miss"
-      },
-      {
-        "type": "identification",
-        "question": "Besides satisfaction and overall feeling, what emotional aspect is part of User Experience (UX)?",
-        "answer": "Emotional connection"
-      },
-      {
-        "type": "identification",
-        "question": "What type of UI evaluation data involves satisfaction scores, error rates, or task completion time?",
-        "answer": "Measurement data"
-      },
-      {
-        "type": "identification",
-        "question": "Ethical UI evaluation guidelines state that evaluations must be both safe and what?",
-        "answer": "Respectful"
+        "question": "Which primary objective of network threats involves unauthorized access to and theft of confidential corporate data?",
+        "answer": "Unlawful Data Exfiltration & Theft"
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the three attributes used to define usability in Chapter 5.",
+        "question": "Enumerate the four primary objectives of network threats.",
         "answers": [
-          "Easy to use",
-          "Efficient to use",
-          "Effective to use"
+          "Unlawful Data Exfiltration & Theft",
+          "Operational Disruption & Downtime",
+          "Unauthorized Privilege Escalation",
+          "Financial Extortion & Reputation Damage"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the two classifications of usability measurements.",
+        "question": "Enumerate the three main attack pillars of network threats.",
         "answers": [
-          "Quantitative",
-          "Qualitative"
+          "Software & Code (Malware)",
+          "Network & Traffic Infrastructure",
+          "Human & Identity Factors"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two performance task metrics used for quantitative usability measurement.",
+        "question": "Enumerate the three specific types of Malware Attacks listed in the study material.",
         "answers": [
-          "How many clicks",
-          "How much time it takes to complete an action"
+          "Ransomware",
+          "Spyware & Trojans",
+          "Network Worms"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate three sources of qualitative usability data.",
+        "question": "Enumerate the three specific Infrastructure & Traffic threats covered in the source material.",
         "answers": [
-          "User opinions",
-          "Feedback",
-          "Surveys"
+          "DDoS Attacks",
+          "Man-in-the-Middle (MitM)",
+          "DNS Spoofing"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate four common topics addressed in a Usability Survey.",
+        "question": "Enumerate the three specific Social & Identity threats identified in the material.",
         "answers": [
-          "Ease of use",
-          "Ease of learning",
-          "Fatigue",
-          "Simple preference"
+          "Phishing",
+          "Credential Stuffing",
+          "Insider Threats"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate three aspects of interaction covered by User Experience (UX).",
+        "question": "Enumerate the four main Defensive Strategies & Countermeasures discussed in the study guide.",
         "answers": [
-          "Enjoyable",
-          "Intuitive",
-          "Stress-free"
+          "Zero Trust Architecture",
+          "Multi-Factor Authentication (MFA)",
+          "Network Segmentation",
+          "Continuous Monitoring & Patching"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the three UI evaluation methods discussed in the material.",
+        "question": "Enumerate the three targets exploited under the Software & Code (Malware) attack pillar.",
         "answers": [
-          "Interview / Observation",
-          "Cognitive Walkthrough",
-          "Expert Heuristic Evaluation"
+          "System software",
+          "OS flaws",
+          "Unpatched applications"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the two ways to conduct an interview/observation evaluation.",
+        "question": "Enumerate the three actions/vectors associated with the Network & Traffic Infrastructure attack pillar.",
         "answers": [
-          "Talk to users",
-          "Watch users use the system"
+          "Intercepting network packets",
+          "Flooding bandwidth",
+          "Hijacking DNS"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the two things users explain while performing a cognitive walkthrough.",
+        "question": "Enumerate the two main tactics associated with the Human & Identity Factors attack pillar.",
         "answers": [
-          "What they are doing",
-          "Why they are doing it"
+          "Manipulating human behavior",
+          "Stealing credentials"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two key insights revealed through a cognitive walkthrough.",
+        "question": "Enumerate the two targets encrypted by Ransomware as specified in the text.",
         "answers": [
-          "User thought process",
-          "Points of confusion"
+          "Network shares",
+          "Critical files"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the first five of Nielsen's ten General UI heuristics.",
+        "question": "Enumerate the two covert activities performed by Spyware & Trojans.",
         "answers": [
-          "Visibility of system status",
-          "Match between system and the real world",
-          "User control and freedom",
-          "Consistency and standards",
-          "Error prevention"
+          "Secretly logging keypresses",
+          "Harvesting credentials"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the remaining five (6 to 10) of Nielsen's ten General UI heuristics.",
+        "question": "Enumerate the two targets flooded with botnet traffic during a DDoS Attack.",
         "answers": [
-          "Recognition rather than recall",
-          "Flexibility and efficiency of use",
-          "Aesthetic and minimalist design",
-          "Help users recognize, diagnose, and recover from errors",
-          "Help and documentation"
+          "Network bandwidth",
+          "Server sockets"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate all ten of Nielsen's General UI heuristics.",
+        "question": "Enumerate the two network environments where Man-in-the-Middle (MitM) attacks occur.",
         "answers": [
-          "Visibility of system status",
-          "Match between system and the real world",
-          "User control and freedom",
-          "Consistency and standards",
-          "Error prevention",
-          "Recognition rather than recall",
-          "Flexibility and efficiency of use",
-          "Aesthetic and minimalist design",
-          "Help users recognize, diagnose, and recover from errors",
-          "Help and documentation"
+          "Unencrypted networks",
+          "Rogue networks"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate three types of data collected during the measurement stage of evaluation.",
+        "question": "Enumerate the two areas where verification factors must be required under Multi-Factor Authentication (MFA).",
         "answers": [
-          "Time",
-          "Error rates",
-          "Satisfaction scores"
+          "Endpoints",
+          "Administrative access portals"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two safety and ethical guidelines for participant evaluations.",
+        "question": "Enumerate the two entities whose access attempts must be strictly validated under Zero Trust Architecture.",
         "answers": [
-          "Users should give informed consent before participating",
-          "Participants should always have the right to stop whenever they feel uncomfortable"
+          "Every device",
+          "Every user attempt"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the three key outcomes ensured by evaluating a user interface as listed in the summary.",
+        "question": "Enumerate the two types of internal staff actions that constitute Insider Threats.",
         "answers": [
-          "The system is easy to use (usability)",
-          "The experience is positive and enjoyable (UX)",
-          "The process is safe, ethical, and user-centered"
+          "Malicious actions",
+          "Careless actions"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two qualitative perceptions users may have about a system's interface.",
+        "question": "Enumerate the two threats contained by Network Segmentation to prevent lateral movement.",
         "answers": [
-          "How simple the system feels",
-          "How tiring the system feels"
+          "Malware",
+          "Attackers"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two forms of data collected to measure effectiveness in UI evaluation.",
+        "question": "Enumerate the three systems and processes deployed under Continuous Monitoring & Patching.",
         "answers": [
-          "Numerical data",
-          "Survey-based data"
+          "Intrusion Detection/Prevention Systems (IDS/IPS)",
+          "SIEM monitoring",
+          "Automated patch management"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the two core criteria used to evaluate user interfaces.",
+        "question": "Enumerate the three components of a system targeted by network threats.",
         "answers": [
-          "Usability",
-          "User Experience (UX)"
+          "Network infrastructure",
+          "Transmitted data",
+          "Connected devices"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate three key qualities of user experience beyond basic functionality.",
+        "question": "Enumerate the three core categories into which network threats are grouped.",
         "answers": [
-          "Overall feeling",
-          "Satisfaction",
-          "Emotional connection"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate two specific qualitative feedback descriptors mentioned for UX.",
-        "answers": [
-          "Intuitive",
-          "Stress-free"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate two principles of ethical participant treatment during interface testing.",
-        "answers": [
-          "Informed consent",
-          "Right to stop"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate two characteristics of expert heuristic evaluation.",
-        "answers": [
-          "Conducted by usability experts",
-          "Uses established principles called heuristics"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate two reasons why interview/observation is beneficial.",
-        "answers": [
-          "It is the simplest evaluation method",
-          "Helps identify problems that designers might miss"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate two requirements for evaluation safety and ethics.",
-        "answers": [
-          "Safe",
-          "Respectful"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate two task performance dimensions measured quantitatively.",
-        "answers": [
-          "Clicks",
-          "Time"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate the two main pillars of Nielsen's heuristics that address errors.",
-        "answers": [
-          "Error prevention",
-          "Help users recognize, diagnose, and recover from errors"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate the two heuristics that deal with system language and system state visibility.",
-        "answers": [
-          "Visibility of system status",
-          "Match between system and the real world"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate the two heuristics that address system design aesthetics and documentation.",
-        "answers": [
-          "Aesthetic and minimalist design",
-          "Help and documentation"
-        ]
-      },
-      {
-        "type": "enumeration",
-        "question": "Enumerate the two heuristics that focus on user memory and user flexibility.",
-        "answers": [
-          "Recognition rather than recall",
-          "Flexibility and efficiency of use"
+          "Malware Attacks",
+          "Infrastructure & Traffic",
+          "Social & Identity"
         ]
       }
     ]

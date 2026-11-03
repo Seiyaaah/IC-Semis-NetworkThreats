@@ -1,7 +1,7 @@
 [
   {
-    "id": "hci_evaluation_methods",
-    "title": "Human-Computer Interaction: UI Evaluation Criteria and Methods",
-    "description": "Covers usability criteria, user experience (UX), evaluation techniques like cognitive walkthroughs and heuristic evaluation, and safety and ethical considerations in UI evaluation."
+    "id": "network_threats",
+    "title": "Network Threats and Defensive Strategies",
+    "description": "An introductory module covering definition of network threats, primary attack pillars including malware, infrastructure, and human factors, common threat categories, and key defensive countermeasures like Zero Trust, MFA, and network segmentation."
   }
 ]

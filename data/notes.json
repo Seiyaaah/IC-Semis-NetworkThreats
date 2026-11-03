@@ -1,77 +1,97 @@
 [
   {
-    "id": "hci_evaluation_methods",
-    "subjectId": "hci_evaluation_methods",
-    "title": "Human-Computer Interaction: UI Evaluation Criteria and Methods",
-    "summary": "Evaluating a user interface involves assessing usability and user experience through various evaluation methods while maintaining safety and ethical standards.",
+    "id": "network_threats",
+    "subjectId": "network_threats",
+    "title": "Network Threats and Defensive Strategies",
+    "summary": "A comprehensive overview of network threats detailing primary attack objectives, main attack pillars, specific threat categories, and key defensive strategies and countermeasures.",
     "sections": [
       {
-        "title": "1. Evaluation Criteria: Usability",
+        "title": "Understanding Network Threats",
         "paragraphs": [
-          "Usability is about how easy, efficient, and effective a system is to use.",
-          "Usability Survey: Often includes questions involving the ease of use, ease of learning, fatigue, simple preference, and other questions specific to the given interface."
-        ],
-        "list": [
-          "Quantitative: Measured through performance tasks (e.g., how many clicks, how much time it takes to complete an action).",
-          "Qualitative: Based on user opinions, feedback, and surveys (e.g., how simple or tiring the system feels)."
-        ]
-      },
-      {
-        "title": "Evaluation Criteria: User Experience (UX)",
-        "paragraphs": [
-          "UX is more than usability it’s about the overall feeling, satisfaction, and emotional connection users have while interacting with the system. Covers how enjoyable, intuitive, and stress-free the app feels."
+          "A network threat is any malicious attempt to compromise, disrupt, or gain unauthorized access to network infrastructure, transmitted data, or connected devices."
         ],
         "list": []
       },
       {
-        "title": "2. Evaluation Methods",
+        "title": "Primary Objectives",
         "paragraphs": [],
         "list": [
-          "INTERVIEW / OBSERVATION: The simplest way: talk to users or watch them use the system. Helps identify problems that designers might miss.",
-          "COGNITIVE WALKTHROUGH: Users \"think aloud\" while using the system. They describe what they are doing and why. This reveals their thought process and points of confusion.",
-          "EXPERT HEURISTIC EVALUATION: Usability experts review the system using established principles called heuristics."
+          "Unlawful Data Exfiltration & Theft",
+          "Operational Disruption & Downtime",
+          "Unauthorized Privilege Escalation",
+          "Financial Extortion & Reputation Damage"
         ]
       },
       {
-        "title": "Nielsen's Ten General UI Heuristics",
+        "title": "The Three Main Attack Pillars",
         "paragraphs": [],
         "list": [
-          "Visibility of system status",
-          "Match between system and the real world",
-          "User control and freedom",
-          "Consistency and standards",
-          "Error prevention",
-          "Recognition rather than recall",
-          "Flexibility and efficiency of use",
-          "Aesthetic and minimalist design",
-          "Help users recognize, diagnose, and recover from errors",
-          "Help and documentation"
+          "Software & Code (Malware): Exploiting system software, OS flaws, and unpatched applications.",
+          "Network & Traffic Infrastructure: Intercepting network packets, flooding bandwidth, or hijacking DNS.",
+          "Human & Identity Factors: Manipulating human behavior and stealing credentials to bypass perimeter defenses."
         ]
       },
       {
-        "title": "Measurement",
-        "paragraphs": [
-          "Collect numerical or survey-based data to measure effectiveness. Can involve time, error rates, or satisfaction scores."
-        ],
-        "list": []
-      },
-      {
-        "title": "3. Safety & Ethics",
-        "paragraphs": [
-          "Evaluations must be safe and respectful. Users should give informed consent before participating. Participants should always have the right to stop whenever they feel uncomfortable."
-        ],
-        "list": []
-      },
-      {
-        "title": "Summary",
-        "paragraphs": [
-          "Evaluating a user interface ensures that:"
-        ],
+        "title": "Malware Attacks",
+        "paragraphs": [],
         "list": [
-          "The system is easy to use (usability)",
-          "The experience is positive and enjoyable (UX)",
-          "The process is safe, ethical, and user-centered"
+          "Ransomware: Encrypts network shares & critical files, demanding extortion payments for keys.",
+          "Spyware & Trojans: Disguised software that secretly logs keypresses and harvests credentials.",
+          "Network Worms: Self-replicating malware spreading laterally across connected nodes without user action."
         ]
+      },
+      {
+        "title": "Infrastructure & Traffic",
+        "paragraphs": [],
+        "list": [
+          "DDoS Attacks: Floods network bandwidth or server sockets with botnet traffic to cause severe outages.",
+          "Man-in-the-Middle (MitM): Intercepts and alters active session packets over unencrypted or rogue networks.",
+          "DNS Spoofing: Corrupts domain resolution caches to silently redirect traffic to malicious sites."
+        ]
+      },
+      {
+        "title": "Social & Identity",
+        "paragraphs": [],
+        "list": [
+          "Phishing: Deceptive emails designed to trick users into revealing access secrets.",
+          "Credential Stuffing: Automated injection of leaked credentials across corporate login portals.",
+          "Insider Threats: Malicious or careless actions by internal staff with valid system permissions."
+        ]
+      },
+      {
+        "title": "Defensive Strategies & Countermeasures",
+        "paragraphs": [
+          "Best practices and architectural principles to mitigate network threats."
+        ],
+        "list": []
+      },
+      {
+        "title": "Zero Trust Architecture",
+        "paragraphs": [
+          "Never trust, always verify. Enforce strict identity validation and access controls for every device and user attempt, inside or outside the network perimeter."
+        ],
+        "list": []
+      },
+      {
+        "title": "Multi-Factor Authentication (MFA)",
+        "paragraphs": [
+          "Requires multiple verification factors (MFA/2FA) across all endpoints and administrative access portals to neutralize stolen credentials."
+        ],
+        "list": []
+      },
+      {
+        "title": "Network Segmentation",
+        "paragraphs": [
+          "Divides networks into isolated sub-zones to contain breaches, preventing lateral movement of malware or attackers across internal subnets."
+        ],
+        "list": []
+      },
+      {
+        "title": "Continuous Monitoring & Patching",
+        "paragraphs": [
+          "Deploys Intrusion Detection/Prevention Systems (IDS/IPS), SIEM monitoring, and automated patch management to resolve vulnerabilities rapidly."
+        ],
+        "list": []
       }
     ]
   }
